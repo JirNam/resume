@@ -1,0 +1,24 @@
+.profile-userpic img{
+    width: 10%;
+}
+
+.portlet.light .portlet-body{
+    padding-top: 0!important;
+}
+
+.timeline{
+    margin: 0 !important;
+}
+
+.timeline .timeline-body{
+    margin-top: 0px;
+    padding: 0;
+}
+
+.list-line-height-30{
+    line-height: unset;
+}
+
+.for-screen{
+    display: none;
+}

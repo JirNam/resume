@@ -1,0 +1,78 @@
+body{
+    font-family: 'lazy_spring_day_demoregular';
+}
+footer{
+    bottom: 0;
+    color: #ccc;
+    height: 100px;
+    left: 0;
+    letter-spacing: 3px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+main{
+    color: #ccc;
+    height: 100px;
+    left: 0;
+    letter-spacing: 3px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+a.text-logo , a.text-logo:visited{
+    text-decoration: none; 
+    color: rgb(255, 176, 176);
+}
+
+a.text-logo:hover{
+    color:#FF8B8B;
+}
+
+.logo::before {
+    background: rgba(207, 207, 207, 0.3) none repeat scroll 0 0;
+    content: "";
+    height: 1px;
+    left: 30px;
+    position: fixed;
+    right: 30px;
+    top: 50%;
+    z-index: -1;
+}
+
+.text{
+    left: 50%;
+    margin: -39px 0 0 -190px;
+    padding: 0 30px;
+    position: fixed;
+    top: 50%;
+    width: 320px;
+    /* background: #fff none repeat scroll 0 0; */
+}
+.text.top{
+    top: 49%;
+    color: #568a91;
+    font-size: 22px;
+    font-weight: bold;
+    z-index: 1;
+}
+.text.bottom{
+    font-size: 18px;
+    margin-top: -31px;
+    padding-left: 8em;
+    top: 53%;
+    background: #fff none repeat scroll 0 0;
+}
+
+@media (max-width:640px) {
+
+    .text.top{
+        width: 13em;
+    }
+    .text.bottom{
+        width: 12em;
+    }
+
+}
